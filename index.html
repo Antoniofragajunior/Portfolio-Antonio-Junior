@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Antonio Júnior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="progresso-scroll"></div>
+    <div class="particulas"></div>
+
+    <button class="btn-tema" id="btnTema" aria-label="Alternar tema">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Inicio</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contatos</a></li>
+        </ul>
+    </nav>
+    
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="img/imagem perfil.png" alt="Foto de perfil de Antonio Júnior" class="foto-perfil">
+            <h1>Antonio Júnior</h1>
+            <p class="cabecalho-sub-titulo">💻 Programador Fullstack | Estudante de ADS | Buscando oportunidade como Desenvolvedor Júnior ou Estagiário</p>
+        </div>
+
+        <!-- Container com os três ícones alinhados -->
+        <div class="icones-container">
+            <!-- Ícone do currículo -->
+            <a href="https://drive.google.com/file/d/1bSdgvn-gRlck8CQOu-l09ctIiASCubvd/view?usp=sharing" download class="icone-link">
+                <i class="fas fa-file-download"></i>
+                    <span class="icone-texto">Currículo</span>
+            </a>
+                
+            <!-- Ícone do GitHub -->
+            <a href="https://github.com/Antoniofragajunior" target="_blank" class="icone-link">
+                <i class="fab fa-github"></i>
+                    <span class="icone-texto">GitHub</span>
+            </a>
+                
+            <!-- Ícone do LinkedIn -->
+            <a href="https://www.linkedin.com/in/ant%C3%B4nio-fraga-j%C3%BAnior-19ba61375" target="_blank" class="icone-link">
+                <i class="fab fa-linkedin"></i>
+                    <span class="icone-texto">LinkedIn</span>
+            </a>
+        </div>
+
+        <a href="#sobre" class="scroll-down" aria-label="Role para a próxima seção">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+  <p>
+    Sou <strong>programador fullstack</strong> e atualmente curso o <strong>3º período de Análise e Desenvolvimento de Sistemas na UEMA</strong>. 
+    Tenho experiência no desenvolvimento de projetos acadêmicos e pessoais, sempre aplicando boas práticas de programação e criando soluções funcionais e bem estruturadas.
+  </p>
+  <p>
+    Sou movido pela vontade constante de <strong>aprender novas tecnologias</strong> e aprimorar minhas habilidades técnicas. 
+    Acredito no <strong>trabalho em equipe</strong> como ferramenta essencial para evoluir, compartilhar conhecimento e alcançar resultados de qualidade.
+  </p>
+
+   <!-- Seção de habilidades -->
+            <div class="skills-section">
+                <div class="skills-title">Tecnologias que domino</div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="skill-name">JavaScript</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill-name">React</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="skill-name">Node.js</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="skill-name">HTML/CSS</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-name">PostgreSQL</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-name">MySQL</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="skill-name">Git</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <div class="skill-name">PHP</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="skill-name">GitHub</div>
+                    </div>
+                </div>
+            </div>
+            
+  <p>
+    No momento, busco minha <strong>primeira oportunidade no mercado de tecnologia</strong>, seja como 
+    <strong>Desenvolvedor Júnior</strong> ou <strong>Estagiário em Desenvolvimento</strong>, com o objetivo de contribuir em projetos reais, 
+    crescer profissionalmente e agregar valor à equipe e à empresa.
+  </p>
+ 
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <!--Primeiro projeto-->
+            <a href="https://github.com/Antoniofragajunior/Projeto-UNES-P-gina-Institucional.git" target="_blank" class="projetos-card">
+                <img src="img/site UNES.png" alt="Projeto Website UNES" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Website Institucional UNES – Projeto em HTML</h3>
+                    <p class="paragrafo-projetos">Este projeto é um site institucional fictício desenvolvido apenas com HTML puro, simulando a página oficial de uma universidade chamada UNES. O objetivo é praticar e demonstrar conhecimentos em estruturação de páginas web, uso de tabelas, links de navegação e formulários de contato.</p>
+                    <div class="linguagens-projeto">
+                        <i class="fab fa-html5 html-icon linguagem-icon" title="HTML5"></i>
+                    </div>
+                    <span class="github-link">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </span>
+                </div>
+                <div class="overlay">Ver no GitHub</div>
+            </a>
+            
+            <!--Segundo projeto-->
+            <a href="https://github.com/Antoniofragajunior/Website-Anna-Bella-Projeto-em-HTML-e-CSS" target="_blank" class="projetos-card">
+                <img src="img/Projeto-Anabelle.png" alt="Projeto Website Anna Bella" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Website Anna Bella – Projeto em HTML e CSS</h3>
+                    <p class="paragrafo-projetos">O Website Anna Bella é um projeto fictício de portfólio desenvolvido com HTML e CSS. Foi criado para simular um site de apresentação profissional, com design simples e elegante. Conta com páginas de biografia, campanhas publicitárias e contatos, todas interligadas.</p>
+                    <div class="linguagens-projeto">
+                        <i class="fab fa-html5 html-icon linguagem-icon" title="HTML5"></i>
+                        <i class="fab fa-css3-alt css-icon linguagem-icon" title="CSS3"></i>
+                    </div>
+                    <span class="github-link">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </span>
+                </div>
+                <div class="overlay">Ver no GitHub</div>
+            </a>
+            
+            <!--Terceiro projeto-->
+            <a href="https://github.com/seuusuario/seu-projeto3" target="_blank" class="projetos-card">
+                <img src="img/portifoliozoom.png" alt="Projeto em destaque" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Portfólio Pessoal – Website Responsivo</h3>
+                    <p class="paragrafo-projetos">Este projeto é meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript. 
+                        Ele inclui tema claro/escuro, barra de progresso ao rolar a página, animações suaves, integração com WhatsApp e design responsivo. 
+                        Criado para apresentar minhas habilidades, experiências e projetos de forma profissional e interativa.
+                    </p>
+                    <div class="linguagens-projeto">
+                        <i class="fab fa-html5 html-icon linguagem-icon" title="HTML5"></i>
+                        <i class="fab fa-css3-alt css-icon linguagem-icon" title="CSS3"></i>
+                        <i class="fab fa-js-square js-icon linguagem-icon" title="JavaScript"></i>
+                    </div>
+                    <span class="github-link">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </span>
+                </div>
+                <div class="overlay">Ver no GitHub</div>
+            </a>
+
+            <!--Quarto projeto-->
+            <a href="https://github.com/Antoniofragajunior/Projeto-Freelance-Chatbot.git" target="_blank" class="projetos-card">
+                <img src="img/Chatbot-para-WhatsApp.webp" alt="Projeto em destaque" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Chatbot WhatsApp – Projeto em Node.js (Freelance)</h3>
+                    <p class="paragrafo-projetos">Desenvolvido em Node.js para uma empresa de internet da minha cidade, este chatbot automatiza o 
+                        atendimento no WhatsApp com opções de planos, suporte, emissão de boletos e integração de mensagens dinâmicas, utilizando
+                         a biblioteca whatsapp-web.js.Conta com simulação de digitação e uso de delays para tornar a interação mais natural e humanizada.
+                    </p>
+                    <div class="linguagens-projeto">
+                        <i class="fab fa-node-js node-icon linguagem-icon" title="Node.js"></i>
+                    </div>
+                    <span class="github-link">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </span>
+                </div>
+                <div class="overlay">Ver no GitHub</div>
+            </a>
+
+             <!--Quinto projeto-->
+            <a href="https://github.com/Antoniofragajunior/Projeto-TechBlog-Blog-de-Tecnologia.git" target="_blank" class="projetos-card">
+                <img src="img/projeto-tecblog.png" alt="Projeto em destaque" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">TechBlog – Blog de Tecnologia (HTML e CSS)</h3>
+                    <p class="paragrafo-projetos">Projeto desenvolvido como prática de front-end, utilizando HTML e CSS para 
+                        criar um layout de blog responsivo e organizado. O site conta com área de postagens, barra lateral 
+                        com categorias e postagens recentes, além de menu de navegação funcional. Foi um exercício importante 
+                        para consolidar fundamentos de estruturação, estilização e boas práticas no desenvolvimento web.
+                    </p>
+                    <div class="linguagens-projeto">
+                        <i class="fab fa-html5 html-icon linguagem-icon" title="HTML5"></i>
+                        <i class="fab fa-css3-alt css-icon linguagem-icon" title="CSS3"></i>
+                    </div>
+                    <span class="github-link">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </span>
+                </div>
+                <div class="overlay">Ver no GitHub</div>
+            </a>
+
+            <!--sexto projeto-->
+            <a href="https://github.com/seuusuario/seu-projeto3" target="_blank" class="projetos-card">
+                <img src="img/imagemnova-postagem.webp" alt="Projeto em destaque" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Area destinada a proximo projeto</h3>
+                    <p class="paragrafo-projetos">Projeto em Andamento...</p>
+                    <div class="linguagens-projeto">
+                        <i class="fab fa-html5 html-icon linguagem-icon" title="HTML5"></i>
+                        <i class="fab fa-css3-alt css-icon linguagem-icon" title="CSS3"></i>
+                        <i class="fab fa-js-square js-icon linguagem-icon" title="JavaScript"></i>
+                        <i class="fab fa-node-js node-icon linguagem-icon" title="Node.js"></i>
+                    </div>
+                    <span class="github-link">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </span>
+                </div>
+                <div class="overlay">Ver no GitHub</div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contato-titulo">Entre em contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input class="campo-form" placeholder="Nome" id="nome" required>
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem" required></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-conteudo">
+            <p class="footer-texto">Vamos trabalhar juntos em seu próximo projeto!</p>
+            <div class="footer-contatos">
+                <a href="mailto:junior.fragalevi@hotmail.com" class="footer-contato">
+                    <i class="fas fa-envelope"></i>
+                    <span>junior.fragalevi@hotmail.com</span>
+                </a>
+                
+                <a href="https://wa.me/5599982422036" class="footer-contato" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://github.com/Antoniofragajunior" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ant%C3%B4nio-fraga-j%C3%BAnior-19ba61375" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">© 2025 Antonio Júnior. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
