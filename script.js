@@ -17,11 +17,11 @@ function atualizarIconeTema(tema) {
 }
 
 // Barra de progresso de scroll
- window.addEventListener('scroll', () => {
-            const alturaTotal = document.documentElement.scrollHeight - window.innerHeight;
-            const progresso = (window.scrollY / alturaTotal) * 100;
-            document.getElementById('progressoScroll').style.width = `${progresso}%`;
-        });
+window.addEventListener('scroll', () => {
+    const alturaTotal = document.documentElement.scrollHeight - window.innerHeight;
+    const progresso = (window.scrollY / alturaTotal) * 100;
+    document.querySelector('.progresso-scroll').style.width = `${progresso}%`;
+});
 
 // Função WhatsApp
 function enviarWhats(event) {
@@ -51,4 +51,3 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('section').forEach((section) => {
     observer.observe(section);
 });
-
