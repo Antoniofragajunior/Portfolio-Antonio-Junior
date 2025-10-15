@@ -311,7 +311,7 @@ h1 {
     font-family: Georgia, serif;
 }
 
-/* Seção de habilidades */
+/* habilidades */
 .skills-section {
     margin: 1.5rem 0;
     padding: 1.5rem;
@@ -443,6 +443,20 @@ h1 {
     transform: scale(1.05);
     background: rgba(79, 70, 229, 0.2);
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+}
+
+.formacao-link.em-andamento {
+    background: rgba(79, 70, 229, 0.1);
+    border: 1px solid var(--vidro);
+    color: var(--primaria);
+    cursor: default;
+    opacity: 0.8;
+}
+
+.formacao-link.em-andamento:hover {
+    transform: none;
+    background: rgba(79, 70, 229, 0.1);
+    box-shadow: none;
 }
 
 /* Ajustes para tema claro */
