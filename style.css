@@ -311,7 +311,7 @@ h1 {
     font-family: Georgia, serif;
 }
 
-/* habilidades */
+/* Seção de habilidades */
 .skills-section {
     margin: 1.5rem 0;
     padding: 1.5rem;
@@ -438,13 +438,6 @@ h1 {
     transition: var(--transicao);
 }
 
-.formacao-link:hover {
-    color: var(--secundaria);
-    transform: scale(1.05);
-    background: rgba(79, 70, 229, 0.2);
-    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
-}
-
 .formacao-link.em-andamento {
     background: rgba(79, 70, 229, 0.1);
     border: 1px solid var(--vidro);
@@ -457,6 +450,13 @@ h1 {
     transform: none;
     background: rgba(79, 70, 229, 0.1);
     box-shadow: none;
+}
+
+.formacao-link:hover {
+    color: var(--secundaria);
+    transform: scale(1.05);
+    background: rgba(79, 70, 229, 0.2);
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
 }
 
 /* Ajustes para tema claro */
@@ -587,20 +587,64 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, rgba(79, 70, 229, 0.8), rgba(124, 58, 237, 0.8));
+    background: linear-gradient(45deg, rgba(79, 70, 229, 0.9), rgba(124, 58, 237, 0.9));
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
     transition: var(--transicao);
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
     backdrop-filter: blur(2px);
 }
 
 .projetos-card:hover .overlay {
     opacity: 1;
+}
+
+.overlay-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.overlay-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--escuro);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: var(--transicao);
+    min-width: 180px;
+    justify-content: center;
+}
+
+.overlay-btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+.overlay-btn.github-btn {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.overlay-btn.github-btn:hover {
+    background: black;
+}
+
+.overlay-btn.jogar-btn {
+    background: linear-gradient(45deg, var(--primaria), var(--secundaria));
+    color: white;
+}
+
+.overlay-btn.jogar-btn:hover {
+    background: linear-gradient(45deg, var(--secundaria), var(--primaria));
 }
 
 .formulario-contato {
