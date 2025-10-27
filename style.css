@@ -194,7 +194,7 @@ h1 {
     text-align: center;
 }
 
-/*Seta de scroll*/
+
 .scroll-down {
     position: absolute;
     bottom: 1rem;
@@ -501,6 +501,13 @@ h1 {
 }
 
 .projetos-imagem {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 3px solid var(--vidro);
+}
+
+.projetos-video {
     height: 200px;
     width: 100%;
     object-fit: cover;
