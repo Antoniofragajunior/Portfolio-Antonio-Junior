@@ -573,7 +573,11 @@ h1 {
 .c-icon { color: #00599C; }
 .java-icon { color: #ED8B00; }
 .mysql-icon { color: #00758F; }
-
+.api-icon { color: #0f9d58; }
+.java-icon { color: #ED8B00; }
+.oop-icon { color: #4CAF50; }
+.security-icon { color: #2196F3; }
+.swing-icon { color: #FF9800; }
 .github-link {
     display: inline-flex;
     align-items: center;
